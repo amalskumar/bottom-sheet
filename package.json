@@ -1,0 +1,35 @@
+{
+  "name": "swipe-bottom-sheet",
+  "version": "0.0.3",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/cli": "^8.3.29",
+    "@angular/common": "~8.2.14",
+    "@angular/compiler": "^8.2.14",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/core": "~8.2.14",
+    "@angular/language-service": "~8.2.14",
+    "@angular/platform-browser": "^8.2.14",
+    "rxjs": "^6.4.0",
+    "typescript": "^3.5.3"
+  },
+  "description": "[Demo](https://joeflateau.github.io/typescript-bottom-sheet/)",
+  "main": "sheet.js",
+  "scripts": {
+    "deploy-demo": "(cd ./angular-demo; npm run ngh)",
+    "build": "rm {.,angular,lib}/*.{d.ts,js,map,metadata.json,ngsummary.json}; ngc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joeflateau/typescript-bottom-sheet.git"
+  },
+  "files": [
+    "{.,angular,lib}/*.{d.ts,js,map,metadata.json}"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeflateau/typescript-bottom-sheet/issues"
+  },
+  "homepage": "https://github.com/joeflateau/typescript-bottom-sheet#readme"
+}
